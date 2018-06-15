@@ -128,8 +128,8 @@ function showModal(episodeId) {
 function createContentModal(heroes) {
   heroes.forEach(hero => {
     $listPerson.innerHTML += `<li>
-                              <p class="hero-name"> ${hero.name} </p>
-                              <p class="hero-gender"> ${hero.gender} </p>
+                                <p class="hero-name"> ${hero.name} </p>
+                                <p class="hero-gender"> ${hero.gender} </p>
                              </li>`;
   });
   hideLoader();
